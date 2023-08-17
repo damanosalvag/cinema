@@ -1,0 +1,6 @@
+import './app'
+import './components/menu'
+import './components/header'
+import './components/logo-title'
+import './components/search-form'
+import './index.scss'
