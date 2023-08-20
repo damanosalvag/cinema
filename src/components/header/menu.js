@@ -23,4 +23,4 @@ class Menu extends HTMLElement {
   }
 }
 
-customElements.define("component-menu", Menu);
+customElements.define("app-menu", Menu);

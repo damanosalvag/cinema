@@ -30,4 +30,4 @@ class Search extends HTMLElement {
   }
 }
 
-customElements.define("component-search", Search);
+customElements.define("app-search", Search);

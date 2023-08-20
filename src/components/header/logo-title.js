@@ -18,4 +18,4 @@ class Title extends HTMLElement {
   }
 }
 
-customElements.define("component-title", Title);
+customElements.define("app-title", Title);

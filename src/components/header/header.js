@@ -8,10 +8,10 @@ class Header extends HTMLElement {
     <link rel="stylesheet" href="./src/index.scss">
       <header>
         <div class="header-container">
-            <component-title></component-title>
-            <component-menu></component-menu>
+            <app-title></app-title>
+            <app-menu></app-menu>
         </div>
-        <component-search></component-search>
+        <app-search></app-search>
         </header>
     `;
 
@@ -19,4 +19,4 @@ class Header extends HTMLElement {
   }
 }
 
-customElements.define("component-header", Header);
+customElements.define("app-header", Header);

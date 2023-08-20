@@ -1,6 +1,7 @@
 import './app'
-import './components/menu'
-import './components/header'
-import './components/logo-title'
-import './components/search-form'
+import "./components/header/menu";
+import "./components/header/header";
+import "./components/header/logo-title";
+import "./components/header/search-form";
+import "./components/footer/footer"
 import './index.scss'
