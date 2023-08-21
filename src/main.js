@@ -1,7 +1,10 @@
 import './app'
 import "./components/header/menu";
-import "./components/header/header";
 import "./components/header/logo-title";
 import "./components/header/search-form";
-import "./components/footer/footer"
-import './index.scss'
+import "./components/header/header";
+import "./components/gallery/gallery";
+import "./components/gallery/body";
+import "./components/gallery/card";
+import "./components/footer/footer";
+import './index.scss';

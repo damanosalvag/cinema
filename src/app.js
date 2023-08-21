@@ -8,6 +8,8 @@ class App extends HTMLElement {
     <link rel="stylesheet" href="./src/index.scss">
       <div>
         <app-header></app-header>
+        <app-body-gallery></app-body-gallery>
+        <app-footer></app-footer>
       </div>
     `;
 
