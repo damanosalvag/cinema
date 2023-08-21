@@ -6,8 +6,9 @@ class MovieCard extends HTMLElement {
       const detailsMovieString = this.getAttribute("data-movie");
       const detailsMovieJson = JSON.parse(detailsMovieString);
       const { id, genres, poster_path, title, release_date, vote_average, vote_count, popularity } = detailsMovieJson;
-      const date_year = release_date.slice(0, 4);
-      const genresDel = genres.map((elemento) => {
+    const date_year = release_date.slice(0, 4);
+    const trimGenres = genres.length > 3 ? genres.slice(0, 3) : genres;
+      const genresDel = trimGenres.map((elemento) => {
         return " " + elemento.name;
       });
       console.log(detailsMovieString);

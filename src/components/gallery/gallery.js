@@ -58,13 +58,13 @@ function createTemplate(content) {
   const template = document.createElement("template");
   template.innerHTML = `
     <link rel="stylesheet" href="./src/index.scss">
-    <article>
-      ${content.join("")}
-    </article>
+      <article class='films'>
+        ${content.join("")}
+      </article>
+    
   `;
 
   return template;
 }
 
 customElements.define("app-gallery", Gallery);
-

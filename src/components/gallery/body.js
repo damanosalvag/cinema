@@ -6,7 +6,7 @@ class BodyGallery extends HTMLElement {
     const template = document.createElement("template");
     template.innerHTML = `
     <link rel="stylesheet" href="./src/index.scss">
-      <section>
+      <section class='gallery-main'>
         <div class="gallery-container">
             <app-spinner></app-spinner>
             <app-gallery></app-gallery>
