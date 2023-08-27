@@ -6,5 +6,6 @@ import "./components/header/header";
 import "./components/gallery/gallery";
 import "./components/gallery/body";
 import "./components/gallery/card";
+import "./components/pagination/pagination";
 import "./components/footer/footer";
 import './index.scss';

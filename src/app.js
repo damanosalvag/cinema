@@ -9,6 +9,7 @@ class App extends HTMLElement {
       <div>
         <app-header></app-header>
         <app-body-gallery></app-body-gallery>
+        <app-pagination></app-pagination>
         <app-footer></app-footer>
       </div>
     `;

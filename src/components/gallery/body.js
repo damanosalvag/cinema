@@ -11,7 +11,6 @@ class BodyGallery extends HTMLElement {
             <app-spinner></app-spinner>
             <app-gallery></app-gallery>
         </div>
-        <app-pagination></app-pagination>
         <app-back-to-top></app-back-to-top>
         </section>
     `;
